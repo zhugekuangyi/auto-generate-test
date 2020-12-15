@@ -1,24 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="89a062c0-1d4f-44db-990f-94b972ad5241" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/core/build/BuildClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/core/build/BuildClassMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/core/build/BuildClassMethodParamete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/core/build/BuildMockClassMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/core/common/BaseCanUserType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/core/common/BaseConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/core/common/ConfigConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/core/common/InitConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/core/dto/JavaClassDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/core/dto/JavaClassInfoAllDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/core/dto/JavaExceptionsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/core/dto/JavaImplementsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/core/dto/JavaMethodDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/core/dto/JavaMockClassInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/core/dto/JavaMockMethodInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/core/dto/JavaParameterDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/core/dto/MockClassDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/core/entity/ConfigEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/core/enums/BaseTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/core/gen/FullNameHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/core/gen/MockClassInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/core/model/JavaClassModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/core/model/JavaGenInfoModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/core/model/JavaMethodModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/core/model/JavaParameteModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/core/util/HashUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/core/util/PackageUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/core/util/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/core/util/UUIDUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/core/util/UrlUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-plugin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$USER_HOME$/hipac/soft/apache-maven-3.5.0" />
-        <option name="userSettingsFile" value="$USER_HOME$/hipac/soft/apache-maven-3.5.0/conf/settings.xml" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../soft/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../soft/apache-maven-3.5.0/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1ldgOBFRkeiavvCXfkMgTH43kRP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/core/src/main/java" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core/src/main/java" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="89a062c0-1d4f-44db-990f-94b972ad5241" name="Default Changelist" comment="" />
+      <created>1607932347065</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607932347065</updated>
+      <workItem from="1607932351066" duration="2604000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="328" y="103" key="#Project_Structure" timestamp="1607933143932">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="328" y="103" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1607933143932" />
+    <state x="649" y="448" key="Github.CreateGistDialog" timestamp="1607932998598">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="649" y="448" key="Github.CreateGistDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1607932998598" />
+    <state x="712" y="426" key="Github.ShareDialog" timestamp="1607932941566">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="712" y="426" key="Github.ShareDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1607932941566" />
+    <state x="665" y="231" key="Github.UntrackedFilesDialog" timestamp="1607932952226">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="665" y="231" key="Github.UntrackedFilesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1607932952226" />
+    <state x="246" y="185" key="new project wizard" timestamp="1607933398295">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="246" y="185" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1607933398295" />
   </component>
 </project>
