@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89a062c0-1d4f-44db-990f-94b972ad5241" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/core/build/BuildClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/core/build/BuildClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/core/common/BaseCanUserType.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/core/common/BaseCanUserType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/core/common/BaseConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/core/common/BaseConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/core/common/InitConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/core/common/InitConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/core/dto/JavaClassInfoAllDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/core/dto/JavaClassInfoAllDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/core/dto/JavaMethodDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/core/dto/JavaMethodDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/core/dto/JavaMockClassInfoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/core/dto/JavaMockClassInfoDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/core/dto/JavaMockMethodInfoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/core/dto/JavaMockMethodInfoDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/core/dto/MockClassDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/core/dto/MockClassDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/template/1.1.0/magt.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-plugin/src/main/java/plugin/GenJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-plugin/src/main/java/plugin/InitPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-plugin/src/main/java/plugin/UnittestPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-plugin/src/main/java/plugin/base/AbstractPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/core/entity/ConfigEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/core/entity/ConfigEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/core/enums/BaseTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/core/enums/BaseTypeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/core/gen/FullNameHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/core/gen/FullNameHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/core/gen/MockClassInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/core/gen/MockClassInfo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +45,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/core/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/doc/template/1.1.0" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -57,6 +54,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/doc/template/1.1.0" />
+      <recent name="$PROJECT_DIR$/maven-plugin/src/main/java/plugin" />
       <recent name="$PROJECT_DIR$/core/src/main/java" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -71,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607932347065</updated>
-      <workItem from="1607932351066" duration="4191000" />
+      <workItem from="1607932351066" duration="5097000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1607999285780</created>
@@ -80,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607999285780</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="提交">
+      <created>1608020250232</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608020250233</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,10 +101,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="328" y="103" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1607933143932" />
-    <state x="424" y="95" key="CommitChangelistDialog2" timestamp="1607999285497">
+    <state x="424" y="95" key="CommitChangelistDialog2" timestamp="1608020250081">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="424" y="95" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1607999285497" />
+    <state x="424" y="95" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1608020250081" />
     <state x="168" y="91" key="DiffContextDialog" timestamp="1607999241514">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -115,10 +121,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="665" y="231" key="Github.UntrackedFilesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1607932952226" />
-    <state x="440" y="262" key="Vcs.Push.Dialog.v2" timestamp="1608015742733">
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2" timestamp="1608020251376">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="262" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1608015742733" />
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1608020251376" />
     <state x="246" y="185" key="new project wizard" timestamp="1607933398295">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
