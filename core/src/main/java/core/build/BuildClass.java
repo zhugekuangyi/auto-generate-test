@@ -1,7 +1,3 @@
-/*
- * uifuture.com
- * Copyright (C) 2013-2019 All Rights Reserved.
- */
 package core.build;
 
 import com.thoughtworks.qdox.model.JavaClass;
@@ -35,7 +31,7 @@ public class BuildClass {
     private static Log log = new SystemStreamLog();
 
     public static void main(String[] args) throws IOException {
-        String mainJava = "/Users/chenhx/Desktop/github/auto-unit-test-plugin/src/main/java/";
+        String mainJava = "/Users/chuqi/Desktop/github/auto-unit-test-plugin/src/main/java/";
 
         String name = "com.uifuture.maven.plugins.core.test.ActionServiceImpl";
 
