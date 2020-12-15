@@ -12,8 +12,7 @@ import plugin.base.AbstractPlugin;
 
 /**
  * 初始化配置文件
- * @author chenhx
- * @version InitPlugin.java, v 0.1 2019-06-10 14:16 chenhx
+ * @author chuqi
  */
 @Mojo(name="init")
 public class InitPlugin extends AbstractPlugin {
@@ -21,7 +20,7 @@ public class InitPlugin extends AbstractPlugin {
     /**
      * 配置文件下载地址
      */
-    private static final String CONFIG_URL = "https://raw.githubusercontent.com/chenhaoxiang/auto-generate-test-maven-plugin/master/doc/template/1.1.3/magt.ftl";
+    private static final String CONFIG_URL = "https://github.com/zhugekuangyi/auto-generate-test/blob/master/doc/template/1.1.0/magt.ftl";
 
     /**
      * 下载文件

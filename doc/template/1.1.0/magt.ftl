@@ -1,15 +1,9 @@
-/*
- * auto-generate-test：https://github.com/chenhaoxiang/auto-generate-test-maven-plugin
- */
 package ${javaClassDTO.packageName};
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.powermock.api.mockito.PowerMockito;
-import org.powermock.core.classloader.annotations.PowerMockIgnore;
-import org.powermock.modules.junit4.PowerMockRunner;
 import org.mockito.junit.MockitoJUnitRunner;
 <#list javaClassDTO.javaImplementsDTOList as implements>
     import ${implements.type};
