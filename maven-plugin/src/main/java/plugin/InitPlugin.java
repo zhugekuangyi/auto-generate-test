@@ -1,8 +1,7 @@
 package plugin;
-
-import com.uifuture.maven.plugins.core.common.ConfigConstant;
-import com.uifuture.maven.plugins.core.util.StringUtil;
-import com.uifuture.maven.plugins.core.util.UrlUtil;
+import core.common.ConfigConstant;
+import core.util.StringUtil;
+import core.util.UrlUtil;
 import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.plugin.MojoFailureException;
 import org.apache.maven.plugin.logging.Log;

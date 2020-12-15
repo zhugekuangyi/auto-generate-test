@@ -1,15 +1,11 @@
-/*
- * uifuture.com
- * Copyright (C) 2013-2019 All Rights Reserved.
- */
 package plugin;
 
 import com.thoughtworks.qdox.JavaProjectBuilder;
 import com.thoughtworks.qdox.model.JavaClass;
-import com.uifuture.maven.plugins.core.common.BaseConstant;
-import com.uifuture.maven.plugins.core.common.ConfigConstant;
-import com.uifuture.maven.plugins.core.util.PackageUtil;
-import com.uifuture.maven.plugins.core.util.StringUtil;
+import core.common.BaseConstant;
+import core.common.ConfigConstant;
+import core.util.PackageUtil;
+import core.util.StringUtil;
 import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.plugin.MojoFailureException;
 import org.apache.maven.plugins.annotations.Mojo;

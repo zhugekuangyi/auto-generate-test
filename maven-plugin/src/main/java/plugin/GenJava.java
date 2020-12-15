@@ -2,12 +2,12 @@ package plugin;
 
 import com.thoughtworks.qdox.model.JavaClass;
 import com.thoughtworks.qdox.model.JavaMethod;
-import com.uifuture.maven.plugins.core.build.BuildClass;
-import com.uifuture.maven.plugins.core.common.BaseConstant;
-import com.uifuture.maven.plugins.core.common.ConfigConstant;
-import com.uifuture.maven.plugins.core.dto.JavaClassDTO;
-import com.uifuture.maven.plugins.core.util.StringUtil;
-import com.uifuture.maven.plugins.core.util.UUIDUtil;
+import core.build.BuildClass;
+import core.common.BaseConstant;
+import core.common.ConfigConstant;
+import core.dto.JavaClassDTO;
+import core.util.StringUtil;
+import core.util.UUIDUtil;
 import freemarker.template.Configuration;
 import freemarker.template.TemplateException;
 import freemarker.template.TemplateExceptionHandler;
