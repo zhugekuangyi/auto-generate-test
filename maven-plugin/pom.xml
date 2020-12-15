@@ -17,6 +17,7 @@
         <dependency>
             <groupId>com.hipac</groupId>
             <artifactId>core</artifactId>
+            <version>1.0.0</version>
         </dependency>
 
         <dependency>
