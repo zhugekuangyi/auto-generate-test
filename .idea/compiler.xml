@@ -6,9 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="core" />
-        <module name="maven-plugin" />
+        <module name="agt-core" />
+        <module name="agt-maven-plugin" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="core" target="8" />
+      <module name="maven-plugin" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

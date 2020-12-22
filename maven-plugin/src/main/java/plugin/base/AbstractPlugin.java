@@ -1,6 +1,6 @@
 package plugin.base;
 
-import com.uifuture.maven.plugins.core.common.ConfigConstant;
+import core.common.ConfigConstant;
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.plugin.MojoFailureException;
