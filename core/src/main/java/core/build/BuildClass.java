@@ -33,7 +33,7 @@ public class BuildClass {
     public static void main(String[] args) throws IOException {
         String mainJava = "/Users/chuqi/Desktop/github/auto-unit-test-plugin/src/main/java/";
 
-        String name = "com.uifuture.maven.plugins.core.test.ActionServiceImpl";
+        String name = "";
 
         JavaClassDTO javaClassDTO = new JavaClassDTO();
         javaClassDTO.setDate(BaseConstant.DATE);
