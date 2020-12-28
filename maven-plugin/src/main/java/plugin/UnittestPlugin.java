@@ -105,17 +105,6 @@ public class UnittestPlugin extends AbstractPlugin {
     @Parameter(defaultValue = "true,false")
     private String setBooleanRandomRange;
 
-    public static void main(String[] args) throws IOException {
-        JavaProjectBuilder builder = new JavaProjectBuilder();
-        builder.addSource(new File("/Users/chuqi/Desktop/github/auto-generate-test-maven-plugin/agt-core/src/main/java/com/uifuture/maven/plugins/core/model/JavaClassModel.java"));
-        JavaClass javaClass1 = builder.getClassByName("JavaClassModel");
-        JavaClass javaClass2 = builder.getClassByName("com.uifuture.maven.plugins.core.model.JavaClassModel");
-        System.out.println(javaClass1 + "====" + javaClass2);
-        JavaClass javaClass3 = builder.getClassByName("JavaProjectBuilder");
-        JavaClass javaClass4 = builder.getClassByName("com.thoughtworks.qdox.JavaProjectBuilder");
-        System.out.println(javaClass3 + "====" + javaClass4);
-    }
-
     @Override
     public void execute() throws MojoExecutionException, MojoFailureException {
         //设置配置值
